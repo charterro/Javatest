@@ -17,14 +17,14 @@
         <repository>
             <id>test</id>
             <name>test</name>
-            <url>http://54.160.207.215:8081/nexus/content/repositories/public/</url>
+            <url>http://54.160.207.215:8081/nexus/content/repositories</url>
         </repository>
     </repositories>
 	
 <distributionManagement> 
     <repository> 
       <id>test</id> 
-      <url>http://54.160.207.215:8081/nexus/content/Releases</url> 
+      <url>http://54.160.207.215:8081/nexus/content/repositories/releases</url> 
     </repository> 
   </distributionManagement>
 
