@@ -13,6 +13,13 @@
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
   </properties>
 
+	<repositories>
+        <repository>
+            <id>test</id>
+            <name>test</name>
+            <url>http://54.160.207.215:8081/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
 
   <dependencies>
     <dependency>
