@@ -20,6 +20,13 @@
             <url>http://54.160.207.215:8081/nexus/content/repositories/public/</url>
         </repository>
     </repositories>
+	
+<distributionManagement> 
+    <repository> 
+      <id>test</id> 
+      <url>http://54.160.207.215:8081/nexus/content/repositories</url> 
+    </repository> 
+  </distributionManagement>
 
   <dependencies>
     <dependency>
