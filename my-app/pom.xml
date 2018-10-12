@@ -121,12 +121,12 @@
           </configuration>
       </plugin>
     </plugins>
+	<distributionManagement>
+  <snapshotRepository>
+    <id>test</id>
+    <url>http://54.160.207.215:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>  
 	  
-	  <distributionManagement>
-   <snapshotRepository>
-      <id>test</id>
-      <url>http://54.160.207.215:8081/nexus/content/repositories/snapshots</url>
-   </snapshotRepository>
-</distributionManagement>
   </build>
 </project>
